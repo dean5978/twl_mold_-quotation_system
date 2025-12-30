@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      base: '/TWL_MOLD_QUOTATION_SYSTEM/', 
+      base: '/TWL_MOLD_-QUOTATION_SYSTEM/', 
       server: {
         port: 3000,
         host: '0.0.0.0',
